@@ -1,3 +1,37 @@
-h1 {
-  color: red;
+.main-content__main {
+  display: flex;
+  margin: 1.5rem 1rem;
+}
+
+.main-content__section {
+  display: grid;
+  width: 100dvw;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.main-content__card-link {
+  font-weight: bold;
+}
+
+.main-content__card {
+  background-color: lightgray;
+  color: #242424;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  height: 64px;
+  border-radius: 15px;
+  filter: drop-shadow(0px 2px 10px #0000006d);
+}
+.main-content__card:hover {
+  background-color: white;
+}
+.main-content__card:active {
+  background-color: white;
+}
+
+.main-content__card-logo {
+  height: 32px;
 }

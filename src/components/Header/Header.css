@@ -1,7 +1,7 @@
 .header {
   background-color: lightgray;
   color: #242424;
-  min-height: 125px;
+  min-height: 100px;
   display: flex;
   place-items: center;
   justify-content: space-around;
@@ -11,7 +11,15 @@
 .header__headline {
   font-size: 3.2em;
   line-height: 1.1;
-  color: hsl(276, 16%, 25%);
+  color: #242424;
+}
+
+.header__headline:hover {
+  color: black;
+}
+
+.header__headline:active {
+  color: black;
 }
 
 .header__github-link {
@@ -24,9 +32,9 @@
 }
 
 .header__github-logo {
-  height: 50px;
+  height: 32px;
 }
 
 .header__github-text {
-  font-weight: bold;
+  font-weight: 500;
 }
