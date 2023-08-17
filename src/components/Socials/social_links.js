@@ -9,6 +9,11 @@ const socials = [
     url: "https://willywdev.hashnode.dev/",
     img: "./icons8-hashnode-144.svg",
   },
+  {
+    name: "Github",
+    url: "https://github.com/willywdev",
+    img: "./github.svg",
+  },
 ];
 
 export default socials;

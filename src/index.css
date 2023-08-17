@@ -31,7 +31,8 @@ body {
   height: 100dvh;
   background-image: url("./components/MainContent/assets/blob-scene-haikei.svg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 a {

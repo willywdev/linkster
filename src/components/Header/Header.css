@@ -21,20 +21,3 @@
 .header__headline:active {
   color: black;
 }
-
-.header__github-link {
-  text-decoration: none;
-  color: #242424;
-  height: 100;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.header__github-logo {
-  height: 32px;
-}
-
-.header__github-text {
-  font-weight: 500;
-}
