@@ -1,7 +1,7 @@
 const socials = [
   {
     name: "LinkedIn",
-    url: "https://linkedin.com",
+    url: "https://www.linkedin.com/in/wilhelm-w-00a682280/",
     img: "./317725_linkedin_social_icon.svg",
   },
   {
