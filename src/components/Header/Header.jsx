@@ -1,5 +1,5 @@
-import "../../../public/github.svg";
 import "./Header.css";
+import github from "./assets/github.svg";
 
 export default function Header() {
   return (
@@ -13,7 +13,7 @@ export default function Header() {
           className="header__github-link"
           target="_blank"
           rel="noreferrer">
-          <img src="./github.svg" className="header__github-logo"></img>
+          <img src={github} className="header__github-logo"></img>
           <p className="header__github-text">Github</p>
         </a>
       </div>
