@@ -5,7 +5,8 @@ const links = [
     url: "https://github.com/willywdev/git-warlock",
   },
   {
-    imgSrc: "MainContent/assets/2993773_git_social media_icon.svg",
+    imgSrc:
+      "src/components/MainContent/assets/2993773_git_social media_icon.svg",
     text: "Test",
     url: "",
   },
