@@ -4,7 +4,9 @@ import "./Header.css";
 export default function Header() {
   return (
     <header className="header">
-      <h1 className="header__headline">Linkster</h1>
+      <a href="/">
+        <h1 className="header__headline">Linkster</h1>
+      </a>
       <div className="header__github-wrapper">
         <a
           href="https://github.com/willywdev"
@@ -12,7 +14,7 @@ export default function Header() {
           target="_blank"
           rel="noreferrer">
           <img src="./github.svg" className="header__github-logo"></img>
-          <p>Github</p>
+          <p className="header__github-text">Github</p>
         </a>
       </div>
     </header>
