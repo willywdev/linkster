@@ -1,15 +1,19 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 .socials__wrapper {
   margin-top: 1rem;
   display: flex;
   justify-content: center;
-  gap: 1rem;
-  align-items: center;
+  gap: 2rem;
+  align-items: stretch;
   height: 50px;
 }
 
 .socials__cards {
-  margin: 0;
-  padding: 0;
   background-color: lightgray;
   height: 52px;
   width: 52px;
@@ -17,6 +21,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+  color: #242424;
 
   &:hover {
     background-color: white;
@@ -25,8 +30,12 @@
     background-color: white;
   }
 }
-
+.socials__link {
+  width: 32px;
+  height: 32px;
+}
 .socials__logos {
   width: 32px;
   height: 32px;
+  margin: auto;
 }

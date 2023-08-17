@@ -5,15 +5,20 @@ export default function Socials() {
   return (
     <div className="socials__wrapper">
       {socials.map((social, index) => (
-        <article key={index} className="socials__cards">
-          <a href={social.url} target="_blank" rel="noreferrer">
+        <a
+          href={social.url}
+          target="_blank"
+          rel="noreferrer"
+          className="socials__link"
+          key={index}>
+          <article className="socials__cards">
             <img
               src={social.img}
               alt={social.name}
               className="socials__logos"
             />
-          </a>
-        </article>
+          </article>
+        </a>
       ))}
     </div>
   );
