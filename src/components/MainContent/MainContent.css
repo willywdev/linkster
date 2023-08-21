@@ -5,17 +5,18 @@
   place-items: center;
   margin-top: 1rem;
   grid-template-columns: 1fr;
+  margin-left: 1rem;
 }
 .main-content__card-link {
   font-weight: bold;
-  width: 85%;
+  width: 65%;
 }
 
 .main-content__card {
   background-color: lightgray;
   color: #242424;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 1rem;
   align-items: center;
   height: 64px;
@@ -34,4 +35,8 @@
 
 .main-content__card-logo {
   height: 32px;
+}
+.main-content__card-text {
+  text-align: center;
+  margin: 0 auto;
 }

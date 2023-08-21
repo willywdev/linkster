@@ -17,7 +17,7 @@ export default function MainContent() {
                 alt={link.text}
                 className="main-content__card-logo"
               />
-              <p>{link.text}</p>
+              <p className="main-content__card-text">{link.text}</p>
             </article>
           </a>
         </section>
