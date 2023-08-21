@@ -4,6 +4,7 @@ import links from "./links";
 export default function MainContent() {
   return (
     <>
+      <RenderVanilla />
       {links.map((link, index) => (
         <section key={index} className="main-content__section">
           <a
@@ -23,5 +24,11 @@ export default function MainContent() {
         </section>
       ))}
     </>
+  );
+}
+
+function RenderVanilla() {
+  return (
+    <h1 className="main-content__card-render-language">Vanilla HTML,CSS,JS</h1>
   );
 }
