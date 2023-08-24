@@ -13,11 +13,30 @@ export default function MainContent() {
 }
 
 function RenderLanguages({ language }) {
-  const icons = [{ name: "vanilla", images: ["", "", ""] }];
+  const icons = [
+    {
+      name: "vanilla",
+      images: [
+        "./icons8-javascript.svg",
+        "./icons8-html-5.svg",
+        "./icons8-css3.svg",
+        "./icons8-google-firebase-console.svg",
+      ],
+    },
+    {
+      name: "react",
+      images: ["./icons8-react-native.svg"],
+    },
+    {
+      name: "python",
+      images: ["./icons8-python.svg"],
+    },
+  ];
   return (
     <section className="main-content__section">
       <h1 className="main-content__card-render-language">
-        {language.toUpperCase()}{" "}
+        {language.toUpperCase()}
+        {"  "}
         {icons
           .filter((icon) => {
             return icon.name === language;

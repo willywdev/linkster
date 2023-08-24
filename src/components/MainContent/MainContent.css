@@ -6,6 +6,7 @@
   margin-left: 1rem;
   margin-right: 1rem;
   gap: 1rem;
+  padding-bottom: 4rem;
 }
 
 .main-content__section {
@@ -32,7 +33,7 @@
   border-radius: 15px;
   filter: drop-shadow(0px 2px 10px #0000006d);
   padding-left: 1rem;
-  padding-right: 0.5rem;
+  padding-right: 1rem;
 }
 
 .main-content__card:hover {
@@ -47,18 +48,18 @@
   height: 32px;
 }
 .main-content__card-text {
-  text-align: center;
-  margin: 0 auto;
-  width: 100%;
+  text-align: left;
+  word-wrap: break-word;
 }
 .main-content__card-render-language {
   width: 100%;
   text-align: center;
   vertical-align: middle;
   margin-top: 2rem;
-  color: #d3afff;
-  text-decoration: underline 2px solid white;
-  text-underline-offset: 5px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .main-content__headline-image {
   height: 32px;
@@ -70,5 +71,6 @@
   .main-content {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+    gap: 0;
   }
 }

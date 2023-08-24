@@ -35,6 +35,12 @@ const links = [
     url: "https://taste-trackr-d6c61.web.app/",
     language: "vanilla, firebase",
   },
+  {
+    imgSrc: "./icons8-linktree.svg",
+    text: "Linkster",
+    url: "https://willywdev.github.io/linkster/",
+    language: "react",
+  },
 ];
 
 export default links;
