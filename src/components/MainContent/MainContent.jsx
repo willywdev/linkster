@@ -4,10 +4,10 @@ import links from "./links";
 export default function MainContent() {
   return (
     <main className="main-content">
-      <RenderLanguages language="vanilla" />
-      <RenderLanguages language="general" />
-      <RenderLanguages language="python" />
       <RenderLanguages language="react" />
+      <RenderLanguages language="vanilla" />
+      <RenderLanguages language="python" />
+      <RenderLanguages language="general" />
     </main>
   );
 }

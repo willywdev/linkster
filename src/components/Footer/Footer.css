@@ -1,5 +1,5 @@
 .footer {
-  position: absolute;
+  position: sticky;
   background-color: lightgray;
   width: 100dvw;
   height: 32px;
