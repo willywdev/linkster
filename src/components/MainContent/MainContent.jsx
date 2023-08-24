@@ -7,12 +7,13 @@ export default function MainContent() {
       <RenderLanguages language="vanilla" />
       <RenderLanguages language="general" />
       <RenderLanguages language="python" />
+      <RenderLanguages language="react" />
     </main>
   );
 }
 
 function RenderLanguages({ language }) {
-  const icons = [{ name: "vanilla", images: ["/icons8-morty.svg", "2", "3"] }];
+  const icons = [{ name: "vanilla", images: ["", "", ""] }];
   return (
     <section className="main-content__section">
       <h1 className="main-content__card-render-language">
