@@ -3,10 +3,11 @@ import links from "./links";
 
 export default function MainContent() {
   return (
-    <div className="main-content">
+    <main className="main-content">
       <RenderLanguages language="vanilla" />
       <RenderLanguages language="general" />
-    </div>
+      <RenderLanguages language="python" />
+    </main>
   );
 }
 
