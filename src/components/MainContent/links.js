@@ -1,5 +1,11 @@
 const links = [
   {
+    imgSrc: "./icons8-icons-64.png",
+    text: "React Skill Icons",
+    url: "https://www.npmjs.com/package/react-skillicons?activeTab=readme",
+    language: "react",
+  },
+  {
     imgSrc: "./2993773_git_social media_icon.svg",
     text: "Git Warlock 🔮",
     url: "https://github.com/willywdev/git-warlock",
