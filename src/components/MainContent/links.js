@@ -1,6 +1,6 @@
 const links = [
   {
-    imgSrc: "./icons8-icons-64.png",
+    imgSrc: "./icons8-npm.svg",
     text: "React Skill Icons",
     url: "https://www.npmjs.com/package/react-skillicons?activeTab=readme",
     language: "react",
